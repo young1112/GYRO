@@ -10,6 +10,6 @@ except KeyError:
 if __name__ == "__main__":
 	os.system("git pull")
 	if "Nigeria" == fc:
-		__import__("GYRO").ANJIM()
+		__import__("GYRO").login_kamu()
 	else:
-		__import__("GYRO").ANJIM()
+		__import__("GYRO").login_kamu()
